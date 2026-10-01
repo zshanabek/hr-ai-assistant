@@ -1,0 +1,37 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+.aws/
+
+# Runtime database and SQLite journal files
+/data/ai_assistant.db
+/data/ai_assistant.db-*
+
+# Python build output and tool caches
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs and local editor/OS files
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
